@@ -12,7 +12,7 @@ class PDMain
   {
     long startTime=System.currentTimeMillis();
     try{
-    url = new URL("https://mp3download.center/get-file?vid=JIuYQ_4TcXg&quality=320&title=En%20Vogue%20-%20%22My%20Lovin%27%20You%27re%20Never%20Gonna%20Get%20It%22%20(Official%20Music%20Video)");
+    url = new URL("Download Link");
     HttpURLConnection httpConnection =(HttpURLConnection) url.openConnection();
     httpConnection.setRequestMethod("HEAD");
     Long fileSize=httpConnection.getContentLengthLong();
